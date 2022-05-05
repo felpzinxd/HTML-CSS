@@ -4,20 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundo006</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed; */
+
+            /* Shorthand background:
+            color - image - position - repeat - [size *NÃO ESTÁ FUNCIONANDO*] - attachment */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
             background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 700px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -29,7 +36,8 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae aliquam magnam animi, voluptate explicabo quia dolorem consequuntur. Accusantium iste aspernatur voluptatum commodi error, illum quia voluptatem saepe vitae esse ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam enim accusamus quos minima illum reiciendis sit eos amet, debitis reprehenderit est placeat ipsum ipsa voluptatibus, cumque odit esse deleniti vel.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae aliquam magnam animi, voluptate explicabo quia dolorem consequuntur. Accusantium iste aspernatur voluptatum commodi error, illum quia voluptatem saepe vitae esse ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam enim accusamus quos minima illum reiciendis sit eos amet, debitis reprehenderit est placeat ipsum ipsa voluptatibus, cumque odit esse deleniti vel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quas earum provident hic nobis quod quos repellat quis tempora commodi sapiente, mollitia pariatur natus sit iste aut quasi culpa in? Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat aliquam culpa repellendus sit voluptas aspernatur! Mollitia laborum rerum commodi fugit eos nulla perferendis, enim veniam porro, praesentium, unde eligendi aspernatur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae aliquam magnam animi, voluptate explicabo quia dolorem consequuntur. Accusantium iste aspernatur voluptatum commodi error, illum quia voluptatem saepe vitae esse ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam enim accusamus quos minima illum reiciendis sit eos amet, debitis reprehenderit est placeat ipsum ipsa voluptatibus, cumque odit esse deleniti vel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quas earum provident hic nobis quod quos repellat quis tempora commodi sapiente, mollitia pariatur natus sit iste aut quasi culpa in? Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat aliquam culpa repellendus sit voluptas aspernatur! Mollitia laborum rerum commodi fugit eos nulla perferendis, enim veniam porro, praesentium, unde eligendi aspernatur.</p>
     </main>
     
 </body>
